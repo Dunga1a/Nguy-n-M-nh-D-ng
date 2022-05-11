@@ -9,6 +9,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>JavaScript Basic</h1>
+    <style>
+        .box {
+            background-color: aqua;
+        }
+    </style>
+    <h1 class="h1">JavaScript Basic 1</h1>
+    <h1 class="h1">JavaScript Basic 2</h1>
+    <h1 class="h1">JavaScript Basic 3</h1>
+
 </body>
 </html>
+
+<script>
+    var changeH1 = document.querySelectorAll('.h1');
+        for(var i = 0; i < changeH1.length; ++i) {
+            changeH1[i].onclick = function(e) {
+                setInterval(function() {
+                    e.target.classList.toggle('box')
+                },1000);
+            }
+        }
+    
+</script>
