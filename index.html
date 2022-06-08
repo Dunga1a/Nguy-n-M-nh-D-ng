@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.js">
+    <!-- <script src="./promise.js"></script> -->
     <script src="./main.js"></script>
     <title>Document</title>
 </head>
@@ -12,14 +12,77 @@
     <style>
         .box {
             background-color: aqua;
+            /* font-size: 20rem; */
+            /* font-weight: 700; */
+        }
+
+        ul {
+            /* display: none; */
+            padding: 0;
+        }
+
+        #comment-block {
+            display: block;
+        }
+
+        input:focus ~ ul {
+            display: block;
         }
     </style>
     <h1 class="h1">JavaScript Basic 1</h1>
     <h1 class="h1">JavaScript Basic 2</h1>
     <h1 class="h1">JavaScript Basic 3</h1>
 
+    <a  href="https://fullstack.edu.vn/">
+        Học lập trình
+    </a>
+
+    <br>
+
+    <a  href="https://google.com.vn">
+        Tìm kiếm
+    </a>
+    <br>
+    <br>
+
+    <input type="text" placeholder="Tìm kiếm">
+
+    <ul>
+        <li>JS</li>
+        <li>PHP</li>
+        <li>C++</li>
+        
+    </ul>
+
+    <ul id="comment-block">
+
+    </ul>
+
+    <div id="box">
+
+    </div>
+
+    <ul id="photo">
+        <img src="" alt="" class="img">
+    </ul>
+
+    <div id="comment">
+
+    </div>
+
+    <button>
+        Submit Comment
+    </button>
+
 </body>
 </html>
+
+<script>
+    var btn = document.querySelector('button');
+    btn.onclick = function(){
+        btn.style.color = "red";
+    }
+</script>
 
 <script>
     var changeH1 = document.querySelectorAll('.h1');
@@ -28,6 +91,38 @@
                 setInterval(function() {
                     e.target.classList.toggle('box')
                 },1000);
+
+                // setTimeout(function() {
+                //     e.target.remove();
+                // }, 5000)
+            }
+        }
+
+    
+
+    
+
+    var aElement = document.links;
+    for(var i=0; i<aElement.length; i++) {
+        aElement[i].onclick = function(e) {
+            if(e.target.href.startsWith('https://fullstack.edu.vn/')) {
+                e.preventDefault();
+            }
+        }
+    }
+
+    document.querySelector('ul').onmousedown = function(e) {
+        e.preventDefault();
+        console.log(e.target)
+    }
+
+    var ulElement = document.querySelectorAll('li');
+        for(var i=0; i < ulElement.length; ++i) {
+            ulElement[i].onclick = function(e) {
+                e.target.innerHTML = 'Chiến Ngu';
+                setInterval(function() {
+                    e.target.classList.toggle('box');
+                },1000)
             }
         }
     
