@@ -17,6 +17,32 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+
+  label {
+    display: block;
+  }
+
+  input {
+    width: 100%;
+    outline: none;
+    padding: 6px 8px;
+    border: solid 1px #e7989b;
+    border-radius: 5px;
+  }
+
+  .overlay {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(98,94,94,0.02874653279280459) 5%, rgba(96,92,92,1) 80%, rgba(68,65,65,1) 100%);
+  }
+
+  
   
   .player {
     position: relative;
@@ -37,6 +63,7 @@
   }
   
   .dashboard {
+    z-index: 1;
     padding: 16px 16px 14px;
     background-color: #fff;
     position: fixed;
@@ -44,6 +71,48 @@
     width: 100%;
     max-width: 480px;
     border-bottom: 1px solid #ebebeb;
+  }
+
+  #createBtn {
+    background-color: #e73c42;
+    color: #fff;
+    width: 0;
+    height: 33px;
+    font-size: 20px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: all ease 0.3s;
+  }
+
+  .createForm {
+    background: linear-gradient(90deg, rgba(182,108,110,0.02874653279280459) 5%, rgba(241,139,139,1) 80%, rgba(247,171,174,1) 100%);
+    z-index: 2;
+    position: fixed;
+    /* left: 34%; */
+    width: 500px;
+    /* top: 45%; */
+    /* transform: translateX(-50%); */
+    display: none;
+    animation: fadeIn ease 0.3s;
+  }
+
+  .open {
+    display: block;
+  }
+
+  #createBtn:hover {
+    width: 200px;
+    background-color: #e7989b;
+  }
+
+  .icon {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    /* padding: 8px; */
+    margin: 0px 6px;
   }
   
   /* HEADER */
@@ -130,7 +199,7 @@
   
   /* PLAYLIST */
   .playlist {
-    margin-top: 408px;
+    margin-top: 440px;
     padding: 12px;
   }
   
@@ -185,5 +254,33 @@
     padding: 16px 8px;
     color: #999;
     font-size: 18px;
+    position: relative;
+  }
+
+  
+
+  .btn-delete {
+    color: #333;
+    font-size: 10px;
+    position: absolute;
+    bottom: -2px;
+    left: 10px;
+    background-color: #e7e1e1;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 5px;
+    display: none;
+  }
+
+  .open-tw {
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: translateY(-150px);
+    }to {
+      transform: translateY(0);
+    }
   }
   

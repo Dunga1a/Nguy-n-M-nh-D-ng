@@ -1,52 +1,74 @@
 {
-    "songs": [
-        {
-            "name": "Rung Động",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        },
-        {
-            "name": "Ngược chiều yêu thương",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Nguoc-Chieu-Yeu-Thuong-Single-Duong-Edward-Vu-Duy-Khanh/699907BZ.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        },
-        {
-            "name": "Rung Động",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        },
-        {
-            "name": "Rung Động",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        },
-        {
-            "name": "Rung Động",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        },
-        {
-            "name": "Rung Động",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        },
-        {
-            "name": "Rung Động",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        },
-        {
-            "name": "Rung Động",
-            "singer": "Dương Adwasr",
-            "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
-            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
-        }
-    ]
+  "songs": [
+    {
+      "id": 1,
+      "name": "Rung Động",
+      "singer": "Dương Adwasr",
+      "path": "https://www.nhaccuatui.com/mh/normal/B6rEC4ZEO7oD width='620' height='382' frameborder='0' allowfullscreen allow='autoplay'",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ngược chiều yêu thương",
+      "singer": "Dương Adwasr",
+      "path": "https://zingmp3.vn/album/Nguoc-Chieu-Yeu-Thuong-Single-Duong-Edward-Vu-Duy-Khanh/699907BZ.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rung Động",
+      "singer": "Dương Adwasr",
+      "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rung Động",
+      "singer": "Dương Adwasr",
+      "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Rung Động",
+      "singer": "Dương Adwasr",
+      "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Rung Động",
+      "singer": "Dương Adwasr",
+      "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Rung Động",
+      "singer": "Dương Adwasr",
+      "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Rung Động",
+      "singer": "Dương Adwasr",
+      "path": "https://zingmp3.vn/album/Rung-Dong-Single-Duong-Edward/6BW0ECOC.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/cover/d/e/3/8/de38ea78ded4ceaf57bd74b07125bcef.jpg"
+    },
+    {
+      "name": "Nắng Ấm Xa Dần",
+      "singer": "Sơn Tùng M-TP",
+      "path": "https://zingmp3.vn/album/Hoa-Am-Anh-Sang-The-Remix-Tap-4-Various-Artists/ZWZBCO9B.html",
+      "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w480_r1x1_webp/covers/1/e/1e2bdfe6129407f4a061e841b261cb5c_1425293642.jpg",
+      "id": 10
+    },
+    {
+      "name": "Sài Gòn Hôm Nay Mưa",
+      "singer": "Hoàng Duyên",
+      "path": "https://www.nhaccuatui.com/mh/auto/EZwfyBx9IT1N",
+      "thumbnail": "https://avatar-ex-swe.nixcdn.com/song/2021/05/30/2/6/7/5/1622365032910_500.jpg",
+      "id": 11
+    }
+  ]
 }
