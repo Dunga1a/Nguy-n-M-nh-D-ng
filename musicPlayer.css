@@ -272,6 +272,11 @@
     display: none;
   }
 
+  .btn-delete:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
   .open-tw {
     display: block;
   }

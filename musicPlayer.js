@@ -264,7 +264,7 @@ function playList(listSong) {
       // Listen to playlist clicks
       playlist.onclick = function (e) {
         const songNode = e.target.closest(".song:not(.active)");
-        // var btnDelete = document.querySelector("btn-delete");
+        var btnDelete = document.querySelector("btn-delete");
         const optionNode = e.target.closest(".option");
         if (!e.target.closest(".option")) {
           // Xử lý khi click vào song
@@ -280,10 +280,30 @@ function playList(listSong) {
         // Handle when clicking on the song option
         if (e.target.closest(".option")) {
           //console.log(e.target.closest(".option").childNodes[3].classList.add('open-tw'))
-          optionNode.childNodes[3].classList.remove("open-tw");
+          // optionNode.childNodes[3].classList.remove("open-tw");
 
-          optionNode.childNodes[3].classList.add("open-tw");
+          optionNode.childNodes[3].classList.toggle("open-tw");
+          setTimeout(function() {
+            optionNode.childNodes[3].classList.remove("open-tw");
+          },5000)
+        }else {
+          console.log(optionNode.childNodes[3].classList.remove("open-tw"))
+          optionNode.childNodes[3].classList.remove("open-tw");
+          optionNode.removeChild(btnDelete)
         }
+        // else if(e.target.closest(".container")){
+        //   console.log(e.target.closest(".container"))
+        //   e.target.closest(".container").classList.remove("open-tw")
+        // }
+        // const container = document.querySelector('.container')
+        // const option = document.querySelector('.option')
+        // // console.log(container)
+        // option.onclick = function(){
+        //   var btn_delete = document.querySelector('.open-tw')
+        //   if(btn_delete){
+        //     btn_delete.style.display = 'none'
+        //   }
+        // }
 
         // const btnOptions = document.querySelectorAll('.option');
         // console.log(btnOptions)
