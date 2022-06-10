@@ -1,0 +1,44 @@
+html {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.15;
+    background: #f4f4f4;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-color: rgb(255, 255, 255);
+    --primary-color: rgb(56, 56, 61);
+}
+
+.arrow-down {
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--text-color);
+  }
+
+  .see-more-link {
+    text-decoration: none;
+    color: rgb(13, 92, 182);
+    line-height: 24px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.active {
+    border: 1px solid rgb(13, 92, 182);
+    color: rgb(13, 92, 182);
+}
+

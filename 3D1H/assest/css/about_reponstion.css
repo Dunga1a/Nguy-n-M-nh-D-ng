@@ -1,0 +1,286 @@
+/* ipad */
+@media(min-width:740px) and (max-width:1024px){
+    .header__heading,
+    .header__body-list{
+        display: none;
+    }
+    .home-content {
+        position: absolute;
+        top: 44%;
+        left: 25%;
+    }
+
+    .mobile-menu{
+        display: block;
+        color: var(--white-color);
+        font-size: 39px;
+        padding: 3px 0 4px 11px;
+        position: relative;      
+    }
+    /* header-mobile */
+    
+
+    .header-nav-mobile{
+        display: none;         
+        position: fixed;
+        width: 100vh;
+        height: 100vh;
+        background: linear-gradient(to right,#fa9e1b,#8d4fff);
+        z-index: 100;
+        opacity: .95;
+        visibility: visible;
+    }
+    .mobile-close-menu{
+        position: absolute;
+        top: 15%;
+        left: 66%;
+    }
+    .mobile-close-menu i {
+        font-size: 35px;
+    }
+    
+    
+    .header-nav-mobile.open-modal{
+        display: block;
+    }
+    .nav-mobile-container-logo{
+        position: absolute;
+        top: 23%;
+        left: 34%;
+        
+    }
+    .nav-mobile-container-logo img{
+        width: 40px;
+    }
+    .mobile-link-items{
+        position: absolute;
+        top:40%;
+        left: 27%;
+    }
+    .mobile-link-items li {
+        list-style: none;
+        margin-bottom: 20px;
+        
+    }
+    .mobile-link-items-a{
+    text-decoration: none;
+    position: relative;
+    font-family:  "Brush Script MT";
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    }
+    
+
+    
+    .header__body-search{
+        color: var(--white-color);
+        font-size: 35px;
+        padding: 4px 0 4px 8px;
+        position: relative;
+        left: 20%;
+    }
+    .intro{
+        padding-bottom: 457px;
+    }
+
+    .intro-container-content {
+        position: absolute;
+        left: 14%;
+        padding-top: 524px;
+    }
+    .intro-content-text{
+        margin-right: 12px;
+    }
+    .intro-btn{
+        bottom: -10%;
+    }
+    .stats-container{
+        margin: 0;
+        margin-right: 30px;
+    }
+    .stats-container .row {
+        justify-content: space-between;
+        margin-bottom: 73px;
+    }
+    .stats-header-content{
+        margin: 0;
+    }
+    .miles-container{
+        margin-left: 80px;
+    }
+
+    .miles-items{
+        padding-right: 42px;
+    }
+
+
+}
+/* mobile */
+@media (max-width: 740px) {
+    .display-none{
+        display: none;
+    }
+
+    .header__heading,
+    .header__body-list{
+        display: none;
+    }
+    
+    .header-nav-mobile{
+        display: none;  
+       
+        position: fixed;
+        width: 100vh;
+        height: 100vh;
+        background: linear-gradient(to right,#fa9e1b,#8d4fff);
+        z-index: 100;
+        opacity: .95;
+        visibility: visible;
+    }
+    .header__body-logo{
+        margin-left: 24px;
+        margin-right: 2px;
+    }
+    .header__body-logo img{
+        padding-right: 12px;
+    }
+    .header__body-search {
+        color: var(--white-color);
+        font-size: 20px;
+        padding: 4px 0 4px 8px;
+        position: relative;
+        left: 24px;
+    }
+    .mobile-menu{
+        display: block;
+        color: var(--white-color);
+        font-size: 39px;
+        padding: 3px 0 4px 11px;
+        position: relative;
+        font-size: 32px;
+        padding: 3px 0 4px 11px;
+        position: relative;
+        left: -5%;      
+    }
+    .mobile-close-menu{
+        position: absolute;
+        top: 10%;
+    left: 45%;
+    }
+    .mobile-close-menu i {
+        font-size: 35px;
+    }
+    
+    
+    .header-nav-mobile.open-modal{
+        display: block;
+    }
+    .nav-mobile-container-logo{
+        position: absolute;
+        top: 23%;
+        left: 25%;
+        
+    }
+    .nav-mobile-container-logo img{
+        width: 40px;
+    }
+    .mobile-link-items{
+        position: absolute;
+        top:40%;
+        left: 15%;
+    }
+    .mobile-link-items li {
+        list-style: none;
+        margin-bottom: 20px;
+        
+    }
+    .mobile-link-items-a{
+    text-decoration: none;
+    position: relative;
+    font-family:  "Brush Script MT";
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+    }
+
+.home-content {
+    position: absolute;
+    top: 45%;
+    left: 23%;
+}
+.home-content h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 800;
+    color: aliceblue;
+}
+.intro-img img{
+    width: 100%;
+
+}
+.intro-container-content {
+    position: relative;
+    left: 0%;
+    margin-left: 35px;
+}
+.intro-btn {
+    position: absolute;
+    height: 44px;
+    border-radius: 27px;
+    bottom: -20%;
+    left: 0;
+    padding: 13px 60px;
+    background: linear-gradient(to right,#fa9e1b,#8d4fff,#fa9e1b);
+    text-align: center;
+}
+.stats-header-content {
+    color: #929191;
+    font-weight: 700;
+    line-height: 2;
+    margin: 0 10px;
+}
+.stats-container{
+    margin: 0;
+}
+.stats-years{
+    padding-bottom: 116px;
+}
+.stats-years-last{
+    margin-left: 179px;
+    font-size: 36px;
+}
+
+.stats-line{
+    margin-left: 20px;
+}
+.stats-line-order{
+    left: -7%;
+}
+.miles-items{
+    padding: 45px 150px;
+}
+.footer__item-des{
+    margin-left: 18px;
+}
+.footer__item-list{
+    padding-left: 15px;
+}
+.footer__item-heading{
+    padding-left: 14px;
+}
+.footer__item-blog{
+    padding-left: 18px;
+}
+.footer__item-contact{
+    padding-left: 18px;
+}
+}
+/* pc */
+@media (min-width:1025px){
+   
+    .header-nav-mobile{
+        display: none;
+    }
+    
+}
